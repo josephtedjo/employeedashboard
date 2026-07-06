@@ -1,0 +1,107 @@
+{
+  "currentUser": {
+    "id": "u1",
+    "name": "Siti Rahayu",
+    "role": "Product Designer",
+    "department": "Design"
+  },
+  "leaveSummary": {
+    "year": 2026,
+    "annualLeaveTotal": 18,
+    "annualLeaveUsed": 6,
+    "sickLeaveUsed": 3,
+    "pendingRequests": 2,
+    "approvedThisMonth": 5
+  },
+  "attendanceThisWeek": [
+    { "day": "Mon", "status": "present" },
+    { "day": "Tue", "status": "present" },
+    { "day": "Wed", "status": "late" },
+    { "day": "Thu", "status": "present" },
+    { "day": "Fri", "status": "present" },
+    { "day": "Sat", "status": "off" },
+    { "day": "Sun", "status": "off" }
+  ],
+  "leaveRequests": [
+    {
+      "id": "lr1",
+      "employeeId": "u1",
+      "employeeName": "Siti Rahayu",
+      "type": "Annual",
+      "startDate": "2026-07-14",
+      "endDate": "2026-07-16",
+      "reason": "Family trip",
+      "status": "pending"
+    },
+    {
+      "id": "lr2",
+      "employeeId": "e3",
+      "employeeName": "Ani Wijaya",
+      "type": "Sick",
+      "startDate": "2026-07-08",
+      "endDate": "2026-07-09",
+      "reason": "Flu recovery",
+      "status": "approved"
+    },
+    {
+      "id": "lr3",
+      "employeeId": "e6",
+      "employeeName": "Fajar Nugroho",
+      "type": "Unpaid",
+      "startDate": "2026-07-20",
+      "endDate": "2026-07-22",
+      "reason": "Personal matters",
+      "status": "pending"
+    }
+  ],
+  "team": [
+    {
+      "id": "e1",
+      "name": "Siti Rahayu",
+      "role": "Product Designer",
+      "department": "Design",
+      "status": "active",
+      "email": "siti.rahayu@company.com"
+    },
+    {
+      "id": "e2",
+      "name": "Budi Santoso",
+      "role": "Backend Engineer",
+      "department": "Engineering",
+      "status": "active",
+      "email": "budi.santoso@company.com"
+    },
+    {
+      "id": "e3",
+      "name": "Ani Wijaya",
+      "role": "HR Partner",
+      "department": "People",
+      "status": "on leave",
+      "email": "ani.wijaya@company.com"
+    },
+    {
+      "id": "e4",
+      "name": "Rian Pratama",
+      "role": "Sales Lead",
+      "department": "Sales",
+      "status": "active",
+      "email": "rian.pratama@company.com"
+    },
+    {
+      "id": "e5",
+      "name": "Dewi Lestari",
+      "role": "Frontend Engineer",
+      "department": "Engineering",
+      "status": "active",
+      "email": "dewi.lestari@company.com"
+    },
+    {
+      "id": "e6",
+      "name": "Fajar Nugroho",
+      "role": "QA Engineer",
+      "department": "Engineering",
+      "status": "on leave",
+      "email": "fajar.nugroho@company.com"
+    }
+  ]
+}
