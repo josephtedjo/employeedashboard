@@ -4,22 +4,13 @@ import LeavePage from './pages/Dashboard';
 import { useEffect, useState } from 'react';
 import { Search } from 'lucide-react';
 
-interface EmployeeData { 
-  id: string;
-  employeeId: string;
-  employeeName: string;
-  type: string;
-}
+
 
 function App() {
-  const employees: EmployeeData[] = mockData.leaveRequests;
 
   const [isDark, setIsDark] = useState<boolean>(false);
   const [query, setQuery] = useState('');
 
-  const filtered = employees.filter((emp) =>
-    emp.employeeName?.toLowerCase().includes(query.toLowerCase())
-  );
 
   useEffect(() => {
     if (isDark) {
